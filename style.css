@@ -33,20 +33,23 @@
 
 footer {
   background-color: #e6c5ab;
-  text-align: center; }
-  footer a {
-    margin: auto;
-    text-align: center;
-    padding: 5px 0;
-    width: 180px;
-    display: block;
-    color: #e6c5ab;
-    font-weight: bold;
-    background-color: #ffffff;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    font-size: 1rem;
-    text-decoration: none; }
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px; }
+
+a {
+  margin: auto;
+  text-align: center;
+  padding: 5px 0;
+  width: 180px;
+  display: block;
+  color: #e6c5ab;
+  font-weight: bold;
+  background-color: #ffffff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

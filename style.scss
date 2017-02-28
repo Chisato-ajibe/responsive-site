@@ -50,9 +50,12 @@ $baseColor : #e6c5ab;
 }
  
 footer{
-  background-color: $baseColor;
-  text-align: center;
+  background-color : $baseColor;
+  text-align : center;
+  margin-top : 30px;
+  padding : 10px;
   
+  }
   a{
     margin : auto;
     text-align : center;
@@ -65,8 +68,4 @@ footer{
     @include border-radius(4px);
     font-size: 1rem;
     text-decoration: none;
-  }
-  
 }
-
-
