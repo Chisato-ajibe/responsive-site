@@ -1,0 +1,72 @@
+@import "compass";
+
+$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+$baseColor : #e6c5ab;
+
+.top {
+  background-image : url("./image/cat.jpg");
+  height : 500px;
+  width : 100%;
+  background-size : cover;
+  background-position : center center;
+}
+@media (max-width: 768px) {
+  .top {
+    height : 250px;
+  }
+}
+  
+.h1 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.container {
+  display : flex;
+  flex-direction : row;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction : column;
+  }
+}
+
+.box {
+  border : solid 3px $baseColor;
+  border-radius:10px;
+  margin : 10px;
+  flex: 1;
+
+  .title{
+    text-align: center;
+    background-color: $baseColor;
+  }
+  
+  p{
+    margin : 10px;
+    text-align: left;
+  }
+}
+ 
+footer{
+  background-color: $baseColor;
+  text-align: center;
+  
+  a{
+    margin : auto;
+    text-align : center;
+    padding : 5px 0;
+    width : 180px;
+    display : block;
+    color : $baseColor;
+    font-weight: bold;
+    background-color: #ffffff;
+    @include border-radius(4px);
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+}
+
+
